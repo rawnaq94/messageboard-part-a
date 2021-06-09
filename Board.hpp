@@ -10,14 +10,14 @@ using std::string;
 namespace ariel
 { // Defines a direction of a message on the board
   
-	class Board 
-  {
-	    	private:
-		      	int od;
+class Board 
+ {
+	private:
+		   int od;
         public:
-	  		Board(){}
-		    void post(unsigned int,unsigned int, Direction,string const&);
-        string read(unsigned int,unsigned int, Direction, int);
-        string show();	
+	           Board(){}
+		   void post(unsigned int,unsigned int, Direction,string const&);
+                   string read(unsigned int,unsigned int, Direction, int);
+                   string show();	
 	};
 };
